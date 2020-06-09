@@ -1,0 +1,44 @@
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 0 3em;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    color: #888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 3em;
+    padding: 1em 0;
+}
+
+header {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+}
+
+h1 {
+    font-size: 6em;
+    margin-bottom: .2em;
+}
+
+header a {
+    color: #888;
+    margin-right: 1em;
+    text-decoration: none;
+
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.portrait {
+    width: 250px;
+}
